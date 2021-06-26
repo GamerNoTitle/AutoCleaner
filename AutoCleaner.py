@@ -25,7 +25,7 @@ def on_info(server,info):
     information = '''
     §6====== AutoCleaner ======
     §6Author：§dGamerNoTitle
-    §6Version：§dBuild V1.0.0 for EMUnion
+    §6Version：§dBuild V1.0.0
     §6当前开启状态：§b{}
     §6扫地频率：{}s/次
     --------------------
