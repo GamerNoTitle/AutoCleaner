@@ -3,6 +3,12 @@ import time
 delay=300
 enabled = True
 
+PLUGIN_METADATA = {
+    'id': 'AutoCleaner',
+    'version': '1.0.0',
+    'name': '这可能是最简单的MCDR自动扫地姬'
+}
+
 def on_load(server,old_module):
     server.say('§b[AutoCleaner]§6自动扫地已加载成功！服务器每{}秒将进行一次掉落物清理！'.format(delay))
     while True:
